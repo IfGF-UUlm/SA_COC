@@ -30,26 +30,33 @@ A score ≥ 4 indicates suitability for discharge to an acute geriatric care uni
 
 
 ## Repository Structure
-
-- [`1_AdaBoost_OvO_Sigmoid_Training.ipynb`](./1_AdaBoost_OvO_Sigmoid_Training.ipynb): Model training and validation using AdaBoost with one-vs-one strategy and sigmoid calibration
+**Analyses**
+- [`1_AdaBoost_OvO_Sigmoid_Training.ipynb`](./1_AdaBoost_OvO_Sigmoid_Training.ipynb): Model training and validation
 - [`2_OKIE_analyses.ipynb`](./2_OKIE_analyses.ipynb): Additional analyses and comparisons with the OKIE dataset
 - [`3_Scoring_System.ipynb`](./3_Scoring_System.ipynb): Development and evaluation of the simplified scoring system
-- [`LICENSE`](./LICENSE): MIT License for this project
+
+**Data**
+- [`coc_data.csv`](./coc_data.csv): Dataset used for model training and validation
+- [`coc.csv`](./coc.csv): Dataset used for the comparative analysis
 - [`OKIE_data.csv`](./OKIE_data.csv): Dataset used for the comparative analysis
+- [`SAh_OKIE_DB_20250303.xlsx`](./SAh_OKIE_DB_20250303.xlsx): SURGE-Ahead Database
+- [`SAh_OKIE_DB_meds_20250217.xlsx`](./SAh_OKIE_DB_meds_20250217.xlsx): Surge-Ahead medication database
+
+**Results**
+- [`bar_chart.png`](./bar_chart.png): Bar chart visualizing key predictors
+- [`calibration_curves.png`](./calibration_curves.png): Calibration curves for model evaluation
 - [`ROC.png`](./ROC.png): Receiver operating characteristic curve for the model
 - [`ROC_scoring_system.png`](./ROC_scoring_system.png): ROC curve for the scoring system
 - [`ROC_simple_scoring_system.png`](./ROC_simple_scoring_system.png): ROC curve for the simplified scoring system
-- [`SAh_OKIE_DB_20250303.xlsx`](./SAh_OKIE_DB_20250303.xlsx): Database used for the comparative analysis
-- [`SAh_OKIE_DB_meds_20250217.xlsx`](./SAh_OKIE_DB_meds_20250217.xlsx): Medication database used in the comparative analysis
-- [`bar_chart.png`](./bar_chart.png): Bar chart visualizing key predictors
-- [`calibration_curves.png`](./calibration_curves.png): Calibration curves for model evaluation
-- [`coc.csv`](./coc.csv): Dataset used for the comparative analysis
-- [`coc_data.csv`](./coc_data.csv): Dataset used for model training and validation
-- [`coc_predictor.joblib`](./coc_predictor.joblib): Serialized trained model for deployment
 - [`cut_offs.png`](./cut_offs.png): Visualization of cut-offs and their associated accuracy
-- [`data_SA_ATZ.csv`](./data_SA_ATZ.csv): Legacy dataset not used in this analysis
 - [`histogram.png`](./histogram.png): Histogram of model predictions
 - [`table1.csv`](./table1.csv): Summary statistics of the study population
+  
+**Other**
+- [`LICENSE`](./LICENSE): MIT License for this project
+- [`coc_predictor.joblib`](./coc_predictor.joblib): Serialized trained model for deployment
+- [`data_SA_ATZ.csv`](./data_SA_ATZ.csv): Legacy dataset not used in this analysis
+
 
 ## Explore the Analysis
 
