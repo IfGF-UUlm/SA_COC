@@ -34,6 +34,7 @@ A score ≥ 4 indicates suitability for discharge to an acute geriatric care uni
 - [`1_AdaBoost_OvO_Sigmoid_Training.ipynb`](./1_AdaBoost_OvO_Sigmoid_Training.ipynb): Model training and validation
 - [`2_OKIE_analyses.ipynb`](./2_OKIE_analyses.ipynb): Additional analyses and comparisons with the OKIE dataset
 - [`3_Scoring_System.ipynb`](./3_Scoring_System.ipynb): Development and evaluation of the simplified scoring system
+- [`4_Additional_Analyses.ipynb`](./4_Additional_Analyses.ipynb): Additional analyses made during peer review
 
 **Data**
 - [`coc_data.csv`](./coc_data.csv): Dataset used for model training and validation
@@ -51,6 +52,7 @@ A score ≥ 4 indicates suitability for discharge to an acute geriatric care uni
 - [`cut_offs.png`](./cut_offs.png): Visualization of cut-offs and their associated accuracy
 - [`histogram.png`](./histogram.png): Histogram of model predictions
 - [`table1.csv`](./table1.csv): Summary statistics of the study population
+- [`table2.csv`](./table2.csv): Confusion matrix
   
 **Other**
 - [`LICENSE`](./LICENSE): MIT License for this project
