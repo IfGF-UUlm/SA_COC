@@ -62,7 +62,7 @@ A score ≥ 4 indicates suitability for discharge to an acute geriatric care uni
 
 ## Explore the Analysis
 
-Open [`1_AdaBoost_OvO_Sigmoid_Training.ipynb`](./1_AdaBoost_OvO_Sigmoid_Training.ipynb), [`2_OKIE_analyses.ipynb`](./2_OKIE_analyses.ipynb) and [`3_Scoring_System.ipynb`](./3_Scoring_System.ipynb) in GitHub to inspect the model development, training, and evaluation process.
+Open [`1_AdaBoost_OvO_Sigmoid_Training.ipynb`](./1_AdaBoost_OvO_Sigmoid_Training.ipynb), [`2_OKIE_analyses.ipynb`](./2_OKIE_analyses.ipynb), [`3_Scoring_System.ipynb`](./3_Scoring_System.ipynb) and [`4_Additional_Analyses.ipynb`](./4_Additional_Analyses.ipynb) in GitHub to inspect the model development, training, and evaluation process.
 
 
 ## License
